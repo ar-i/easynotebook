@@ -1,17 +1,18 @@
 ![](https://i.imgur.com/76XLeVJ.png)
 
 **easynotebook** is an ultra-minimalistic generator for static websites, ideal
-for blogs. It takes a bunch of Markdown-files and generates HTML-files out of it, all listed on an index-page
+for blogs. It takes a bunch of Markdown-files and generates HTML-files out of
+it, all listed on an index-page.
 
 #### Requirements
 A less-than-20-years-old version of `bash` as well as `pandoc`.
 
-For Debian / Ubuntu:
-`sudo apt-get install pandoc`
-For RHEL / Fedora / CentOS:
-`sudo dnf install pandoc`
-For OSX the best option 
-`brew install pandoc`
+For Debian / Ubuntu:  
+`sudo apt-get install pandoc`  
+For RHEL / Fedora / CentOS:  
+`sudo dnf install pandoc`  
+For OSX the best option is [Homebrew](https://brew.sh):  
+`brew install pandoc`  
 For more information please refer to the corresponding [documentation](https://pandoc.org/installing.html#macos)
 
 #### Usage
