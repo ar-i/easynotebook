@@ -8,6 +8,7 @@ for post in posts/*.md; do
 	sed -n '/~CONTENTSTART/,/~CONTENTEND/p' $post | grep -v "^\~" > /tmp/$post
 
 	pandoc -s --self-contained --css style.css -o ./site/posts/$postname /tmp/$post
+        
 	echo -e "INDEXSTART\n$(grep "title:" $post | sed 's/title\:\ //g')\nINDEXEND " >> ./site/posts/$postname
 	touch -d $postdate ./site/posts/$postname
 done
