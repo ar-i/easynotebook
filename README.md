@@ -1,4 +1,4 @@
-![](https://i.imgur.com/76XLeVJ.png)
+<div align="center">![](https://i.imgur.com/76XLeVJ.png)</div>
 
 **easynotebook** is an ultra-minimalistic generator for static websites, ideal
 for blogs. It takes a bunch of Markdown-files and generates HTML-files out of
