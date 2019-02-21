@@ -13,7 +13,11 @@ For RHEL / Fedora / CentOS:
 `sudo dnf install pandoc`  
 For OSX the best option is [Homebrew](https://brew.sh):  
 `brew install pandoc`  
-For more information please refer to the corresponding [documentation](https://pandoc.org/installing.html#macos)
+For more information please refer to the corresponding
+[documentation](https://pandoc.org/installing.html#macos). Please be aware that
+there are some issues on OSX - the site will generate just fine, but you'll get
+command line warnings. Since I don't own an OSX-device I was only able to test
+it briefly!
 
 #### Usage
 You need to populate two files/folders:
