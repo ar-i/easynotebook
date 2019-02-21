@@ -21,3 +21,8 @@ for post in $(ls -lt site/posts/ | grep "^\-" | awk '{print $9}'); do
 	echo '<li><a href=./posts/'$post'>'$postname'</a></li>' >> ./site/index.html
 done
 echo '</ul></hr>' >> ./site/index.html
+
+sed -i '$ d' ./site/posts/*
+sed -i '$ d' ./site/posts/*
+sed -i '$ d' ./site/posts/*
+sed -i '$ d' ./site/posts/*

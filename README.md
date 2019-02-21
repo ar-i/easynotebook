@@ -46,15 +46,22 @@ The results can be found in the folder `site`.
 
 #### FAQ
 * What technologies does this us? Javascript? CSS?
+
 No Javascript-developers have been harmed in the generation of HTML-files. It's
 really simple - Markdown as input for `pandoc`, together with a CSS-file (based
 off of [getskeleton.com](https://getskeleton.com)), output is self-contained
 HTML. Et voila!
+
 * Can I use my own CSS?
+
 Yes, just replace the content of `style.css` with whatever you like.
+
 * This is .. super-crude?!
+
 I'm aware of that. I wrote that in an hour for myself .. if the crudeness
 bothers you, look at it as a proof-of-concept. Even with the most basic
 tech-skills you can create nice things.
+
 * Will it eventually be less-crude?
+
 Yes, once I'm bothered enough by my own ugly 'code'.
